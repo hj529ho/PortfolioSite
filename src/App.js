@@ -10,13 +10,13 @@ class App extends React.Component
   {
     return(
       <>
-      <main>
         <Header/>
-        <section className="image">
-        <div className="darkimage">
-          <div className="maintext">안녕하세요 개발자 정호진입니다.</div>
-        </div>
-        </section>
+          <main>
+          <section className="image">
+            <div className="darkimage">
+             <div className="maintext">안녕하세요 개발자 정호진입니다.</div>
+            </div>
+          </section>
         <About/>
         <Project/>
         <Contact/>

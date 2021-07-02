@@ -8,12 +8,17 @@ class Header extends React.Component
   {
     return(
       <> 
-        <div style={{background: "rgba(0, 0, 0, 0.8)",position:"fixed",borderBottomLeftRadius:'20px',borderBottomRightRadius:'20px', height:60,width:'100%',top:0,zIndex:1000}}>
-            <div className="HeaderText"> Home </div>
-            <div className="HeaderText"> About me </div>
-            <div className="HeaderText"> Project </div>
-            <div className="HeaderText"> Contact </div>
-        </div>
+        <nav className="HeaderLine">
+        <div className="HeaderText"> Hojin's Portfolio </div>
+        <div className="HeaderAlign">
+            <div className="HeaderText"> 
+                    <span>Home</span>
+                    <span>About</span>
+                    <span>Projects</span>
+                    <span>Contact</span>
+                </div>
+            </div>
+        </nav>
      </>
     );
   }
